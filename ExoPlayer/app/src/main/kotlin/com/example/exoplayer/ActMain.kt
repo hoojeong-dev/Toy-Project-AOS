@@ -25,6 +25,7 @@ class ActMain : AppCompatActivity() {
     private fun setClickListener() {
 
 
+
         mBinding.btnVideo.setOnClickListener {
 
             Intent(this@ActMain, ActVideo::class.java).apply {
